@@ -1,0 +1,241 @@
+﻿/*HTML 表单中有两种类型的单元格：
+表头单元格 - 包含表头信息（由 th 元素创建）
+标准单元格 - 包含数据（由 td 元素创建）
+th 元素内部的文本通常会呈现为居中的粗体文本，而 td 元素内的文本通常是左对齐的普通文本*/
+body           /*body，td，th标签选择器，外部引用CSS样式*/
+{   
+	font-family: Arial, Helvetica, sans-serif;/*font-family 是规定一个字体列表，从左至右顺序从系统中检索，如果检索到了则使用，
+        否则继续检索下一个，直到全部检索不到才使用系统默认字体*/
+	font-size: 16px;/*设置字体的大小*/
+    background:url("../images/1.png") no-repeat;
+    opacity:0.8;
+    background-size:cover;
+	/*background-color: #e7ecef;背景颜色浅灰*/
+	margin-left: 0px;/*左外边距*/
+	margin-top: 0px;/*上外边距*/
+	margin-right: 0px;/*右外边距*/
+	margin-bottom: 0px;/*下外边距*/
+	padding-right: 0px;/*右内边距*/
+	padding-left: 0px;/*左内边距*/
+	padding-bottom: 0px;/*下内边距*/
+	padding-top: 0px;/*上内边距*/
+}
+
+td {
+	font-family: Arial, Helvetica, sans-serif;
+    font-size:20px;
+}
+.shenhong :link /*类选择器+伪类（未被点击的链接）*/{
+	font-size: 16px;
+	color:#ffffff;
+	text-decoration:none;/*定义标准的文本*/
+		font-family: "宋体";
+	line-height: 23px;/*行高*/
+}
+.shenhong :visited /*类选择器+伪类（被点击的链接）*/{
+	font-size: 16px;
+	color:#FFFFFF;
+	text-decoration:none;
+		font-family: "宋体";
+	line-height: 23px;
+}
+.shenhong :hover /*类选择器+伪类（鼠标移动到链接上链接）*/{
+	font-size: 16px;
+	color:#CC0000;
+	text-decoration:none;
+	font-family: "宋体";
+	line-height: 23px;
+}
+.shenhong :active /*类选择器+伪类（选定的链接链接）*/{
+	font-size: 16px;
+	color:#FF0000;
+	text-decoration:none;
+	font-family: "宋体";
+	line-height: 23px;
+} .daohangh:link {
+	font-size: 16px;
+	color:#E7ECEF;
+	text-decoration:none;
+	line-height: 18px;
+}
+.daohangh:visited {
+	font-size: 16px;
+	color:#E7ECEF;
+	text-decoration:none;
+	line-height: 18px;
+}
+.daohangh:hover {
+	font-size: 16px;
+	color:#FFFF00;
+	text-decoration:none;
+	font-family: "宋体";
+	line-height: 18px;
+}
+.daohangh  :active {
+	font-size: 16px;
+	color:#FFFF00;
+	text-decoration:none;
+	font-family: "宋体";
+	line-height: 18px;
+} 
+.shenlan  :link {
+	font-size: 16px;
+	color:#1C5785;
+	text-decoration:none;
+	line-height: 18px;
+}
+.shenlan  :visited {
+	font-size: 16px;
+	color:#1C5785;
+	text-decoration:none;
+	line-height: 18px;
+}
+.shenlan  :hover {
+	font-size: 16px;
+	color:#FF6600;
+	text-decoration:none;
+	font-family: "宋体";
+	line-height: 18px;
+}
+.shenlan  :active {
+	font-size: 16px;
+	color:#1C5785;
+	text-decoration:none;
+	font-family: "宋体";
+	line-height: 18px;
+} 
+.hongcu {
+	font-family: "宋体";
+	font-size: 16px;
+	line-height: 22px;
+	font-weight: bold;
+	color: #CC0000;
+}
+.danhuang {
+	font-family: "宋体";
+	font-size: 16px;
+	line-height: 22px;
+	color: #FFFFCC;
+
+}
+.shenlan {
+	font-family: "宋体";
+	font-size: 16px;
+	line-height: 22px;
+	color: #1C5785;
+}
+.chengse {
+	font-family: "宋体";
+	font-size: 16px;
+	line-height: 22px;
+	color: #FF6600;
+}
+.shenlancu {
+	font-family: "宋体";
+	font-size: 16px;
+	line-height: 22px;
+	font-weight: bold;
+	color: #006FC3;
+}
+.huise:link {
+	font-size: 16px;
+	color:#383C2B;
+	text-decoration:none;
+	line-height: 24px;
+	font-family: "宋体";
+}
+.huise:visited {
+	font-size: 16px;
+	color:#383C2B;
+	text-decoration:none;
+	line-height: 24px;
+}
+.huise:hover {
+	font-size: 16px;
+	color:#FF0000;
+	text-decoration:none;
+	font-family: "宋体";
+	line-height: 24px;
+}
+.huise:active {
+	font-size: 16px;
+	color:#383C2B;
+	text-decoration:none;
+	font-family: "宋体";
+	line-height: 24px;
+} 
+.hong:link {
+	font-size: 16px;
+	color: #FF0000;
+	text-decoration:none;
+	line-height: 24px;
+	font-family: "宋体";
+}
+.hong:visited {
+	font-size: 16px;
+	color: #FF0000;
+	text-decoration:none;
+	line-height: 24px;
+}
+.hong:hover {
+	font-size: 16px;
+	color:#FF0000;
+	text-decoration:none;
+	font-family: "宋体";
+	line-height: 24px;
+}
+.hong:active {
+	font-size: 16px;
+	color: #FF0000;
+	text-decoration:none;
+	font-family: "宋体";
+	line-height: 24px;
+} 
+.banhui {
+	font-family: "宋体";
+	font-size: 16px;
+	line-height: 24px;
+	font-weight: normal;
+	color: #333333;
+}
+.henhong{
+	font-family: "宋体";
+	font-size: 16px;
+	line-height: 24px;
+	font-weight: normal;
+	color: #990000;
+}
+.huise1
+{
+	font-size: 16px;
+	color:#FF0000;
+	text-decoration:none;
+	font-family: "宋体";
+	line-height: 24px;
+}
+.txt
+{
+	font-size: 16px;
+}
+.tuijian
+{
+	font-size: 16px;
+	color: #00cc00;
+	font-family: Arial;
+}
+.lnk
+{
+	
+	font-family: "Tahoma", "宋体";
+    font-size: 16px; color: #003399;
+    border: 1px #003399 solid;/*定义边框元素*/
+    color:#006699;
+    BORDER-BOTTOM: #93bee2 1px solid; /*下边框*/
+    BORDER-LEFT: #93bee2 1px solid; /*左边框*/
+    BORDER-RIGHT: #93bee2 1px solid; /*右边框*/
+    BORDER-TOP: #93bee2 1px solid;/*上边框*/
+    background-image: url(images/close.GIF);/*元素设置背景图像*/
+    background-color: #e8f4ff;/*背景颜色*/
+    CURSOR:pointer;/*设置鼠标为手型*/
+    font-style: normal ;/*字体的风格，采用默认*/
+}
